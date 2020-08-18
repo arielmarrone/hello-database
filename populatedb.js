@@ -8,6 +8,7 @@ const User = require('./models/User');
 
 // la URI de la db
 const db = 'mongodb+srv://hellodb:Ariel2020@cluster0.cyubq.gcp.mongodb.net/<dbname>?retryWrites=true&w=majority';
+const db = 'mongodb://localhost/hellodb';
 
 // array de usuarios para ingresar a la db
 const users = [
